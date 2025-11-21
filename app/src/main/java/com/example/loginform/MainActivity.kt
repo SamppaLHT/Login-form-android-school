@@ -53,7 +53,7 @@ fun LoginScreen(modifier: Modifier = Modifier) {
             text = "Login",
             fontSize = 32.sp,
             fontWeight = FontWeight.Bold,
-            color = Color(0xFF6200EE),
+            color = Color(0xFF0066FF),
             modifier = Modifier.padding(bottom = 32.dp)
         )
 
@@ -105,7 +105,7 @@ fun LoginScreen(modifier: Modifier = Modifier) {
                 .fillMaxWidth()
                 .height(50.dp),
             colors = ButtonDefaults.buttonColors(
-                containerColor = Color(0xFF6200EE)
+                containerColor = Color(0xFF0066FF)
             )
         ) {
             Text(
